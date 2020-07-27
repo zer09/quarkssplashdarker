@@ -60,17 +60,17 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
         clip: true;
- 
-        AnimatedImage { 
+
+        AnimatedImage {
             id: face
             source: "images/plasma_d.gif"
-            paused: false 
+            paused: false
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
             width:  imageSource.sizeAnim - 7
             height: imageSource.sizeAnim  - 7
             smooth: true
-            visible: true 
+            visible: true
          }
     }
 
@@ -108,7 +108,7 @@ Rectangle {
                 text: ""
             }
             Image {
-                source: "images/kde.svgz"
+                source: "images/plasma.svgz"
                 sourceSize.height: units.gridUnit * 2
                 sourceSize.width: units.gridUnit * 2
             }
